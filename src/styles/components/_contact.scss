@@ -1,0 +1,98 @@
+#contact {
+    display: flex;
+    justify-content: center;
+    background: rgb(63, 62, 62);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ctitle {
+    font-size: 2.5vmax;
+    text-align: center;
+    background: rgb(63, 62, 62);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3% 0;
+}
+
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 3% 5%;
+    text-transform: uppercase;
+    font-family: Arial;
+    //text-align: center;
+    font-size: 0.9vmax;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 3% 5%;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 1vmax;
+}
+
+.formg {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8%;
+}
+
+.formg input {
+    border-radius: 10px;
+    height: 3vh;
+    width: 15vw;
+}
+
+#submitBtn {
+    height: 4vh;
+    width: 50%;
+    align-self: center;
+    margin-top: 5%;
+    background: #d1664b;
+    color: white;
+    border: transparent;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-size: 1vmax;
+}
+
+@media only screen and (max-width: 768px) {
+    #submitBtn {
+        width: 15vw;
+    }
+}
+
+.cthead {
+    border-bottom: 1px solid white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    font-weight: 800;
+    font-size: 1vmax;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#endemail {
+    background: rgb(63,62,62);
+    color: white;
+    font-size: 1.1vmax;
+    text-align: center;
+    cursor: pointer;
+}
+
+#form-title {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.flexexp {
+    margin-bottom: 5%;
+}
+

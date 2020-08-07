@@ -1,0 +1,41 @@
+$menu-red: rgb(255,0,0);
+
+
+@import './components/header';
+@import './components/homescreen';
+@import './components/services';
+@import './components/about';
+@import './components/clients';
+@import './components/contact';
+@import './components/footer';
+@import './components/works';
+@import './components/print';
+
+
+@import './background';
+
+
+
+
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#intro {
+    width: 100vw;
+    height: 100vh;
+}
+
+#unmute {
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    padding: 0.3%;
+    z-index: 1;
+}

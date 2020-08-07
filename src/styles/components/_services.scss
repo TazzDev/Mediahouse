@@ -1,0 +1,100 @@
+#services {
+    background: rgb(206, 113, 89);
+    //filter: brightness(150%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vmax;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    margin-top: 8%;
+
+}
+
+#sbox{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+
+.service {
+    text-align: center;
+    line-height: 1.7;
+    font-size: 1.4vmax;
+}
+
+.service p {
+    font-size: 1.4vmax;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+
+.desc {
+    font-size: 1.2vmax;
+    width: 20vw;
+    line-height: 1.4;
+    text-align: center;
+    margin: 2% auto auto auto;
+    word-spacing: 1%;
+}
+
+.serv-image {
+    height: 10vh;
+    width: 12vw;
+}
+
+.flynetli {
+    margin: 20% 0 20% 0;
+    width: 15vw;
+}
+
+#web-dev-content {
+    width: 25vw;
+    font-size: 1.1vmax;
+    margin:  2% auto 2% auto;
+}
+
+@media only screen and (max-width: 768px) {
+    #sbox {
+        flex-direction: column;
+    }
+    #services h3 {
+        font-size: 5vmax;
+        letter-spacing: 2vw;
+    }
+    .service {
+        font-size: 2.8vmax;
+        letter-spacing: 1vw;
+        margin-bottom: 10%;
+    }
+    .service p {
+        font-size: 3vmax;
+        letter-spacing: 1vw;
+    }
+    .desc {
+        width: 80%;
+        letter-spacing: 0;
+        font-size: 2.5vmax;
+    }
+    .serv-image {
+        width: 45vw;
+    }
+    #web-dev-content {
+        width: 80%;
+        letter-spacing: 0;
+        font-size: 2.5vmax;
+        line-height: 1.4;
+    }
+    .flynetli {
+        margin: 5% auto 5% auto;
+    }
+}

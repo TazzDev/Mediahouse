@@ -1,0 +1,45 @@
+#about {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5% 0 5% 0;
+}
+
+#about-box {
+    width: 60%;
+}
+
+#about-box h3 {
+    font-family: sans-serif;
+    font-size: 2vmax;
+    text-transform: uppercase;
+    margin: 5% 0 2% 0;
+    padding-bottom: 2%;
+    border-bottom: 2.5px solid black;
+}
+
+#about-box p {
+    text-align: justify;
+    font-size: 1vmax;
+    line-height: 2;
+    font-family: sans-serif;
+    margin-bottom: 5%;
+} 
+
+@media only screen and (max-width: 768px) {
+    #about-box {
+        width: 85%;
+    }
+    #about-box h3 {
+        font-size: 4vmax;
+        margin: 8% 0 5% 0;
+        padding-bottom: 4%;
+    }
+    #about-box p {
+        font-size: 2vmax;
+
+        text-align: left;
+        margin-bottom: 8%;
+
+    }
+}

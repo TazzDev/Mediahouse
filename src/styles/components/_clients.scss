@@ -1,0 +1,49 @@
+#clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #2b8682;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+
+}
+
+#clients h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    font-size: 2.5vmax;
+    text-transform: uppercase;
+    //text-decoration: underline;
+}
+
+.client-images {
+width: 60%;
+display: flex;
+justify-content: space-evenly;
+margin: 0 0 5% 0;
+}
+
+.client-logo {
+    border: 1px solid white;
+    border-radius: 10px;
+    background: white;
+    padding: 1%;
+    width: 16vmin;
+    height: 10vmin;
+}
+
+#climage {
+    border-radius: 10px;
+    width: 75vw;
+}
+
+@media only screen and (max-width: 768px) {
+    #climage {
+        width: 96vw;
+        height: 30vh;
+    }
+}

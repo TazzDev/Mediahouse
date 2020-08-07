@@ -1,0 +1,18 @@
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url('../../public/images/background.png');
+    filter: blur(3px);
+    filter: brightness(110%);
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .background {
+        display: none;
+    }
+}
